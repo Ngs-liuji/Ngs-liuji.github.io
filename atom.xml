@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-18T02:05:46.758Z</updated>
+  <updated>2024-02-18T05:52:57.843Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基于Hexo和github Page的个人博客搭建</title>
+    <link href="http://example.com/2024/02/18/%E5%9F%BA%E4%BA%8EHexo%E5%92%8Cgithub-Page%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <id>http://example.com/2024/02/18/%E5%9F%BA%E4%BA%8EHexo%E5%92%8Cgithub-Page%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
+    <published>2024-02-18T05:38:00.000Z</published>
+    <updated>2024-02-18T05:52:57.843Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>现在市面上已经有许多博客了，比如 CSDN、掘金、博客园、简书等等。我们可以直接在上面发表内容，而且交互比较人性化，而且也能被搜索引擎检索到。但是总归是别人的平台，经常会受限，因此我们就希望能有自己的博客。之前也尝试过搭建过不同的博客类型，折腾了不少工作，最终决定定型，采用 Hexo + Github Pages 的方式。今天就带大家一起来搭建自己的博客。由于是采用 Hexo + Github Pages 的方式，所以都是免费的，只是需要有一定的动手能力！</p><h3 id="Hexo-简介"><a href="#Hexo-简介" class="headerlink" title="Hexo 简介"></a>Hexo 简介</h3><p>Hexo 是一个快速、简洁且高效的静态博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。我们只需要通过 Markdown 语法写好自己的博客内容，然后通过简单的命令就能够将生成的网页上传到 Github，然后大家都可以来访问你的网页了。既方便了自己，也给了自己一个展示自己成果的平台，是不是一举两得。</p><h3 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h3><p>搭建之前，需要做一些准备工作，首先需要确保你的电脑上已经上安装好了 Git 和 Node.Js，然后才能开始安装 Hexo，那么首先我们先来看看如何准备这这些环境。</p><h3 id="Git-安装"><a href="#Git-安装" class="headerlink" title="Git 安装"></a>Git 安装</h3><p>Window：下载并安装<br>macOS：下载并安装<br>Linux（Debian，Ubuntu）：sudo apt-get install git-core<br>Linux（Fedora、RedHat、CentOS）：sudo yum install git-core<br>设置<br>安装成功后，将 git 与 GitHub 账号绑定，右键打开 Git Bash，然后设置配置信息：</p><h3 id="配置用户名和邮箱"><a href="#配置用户名和邮箱" class="headerlink" title="配置用户名和邮箱"></a>配置用户名和邮箱</h3><p> git config –global user.name “github 用户名”<br> git config –global user.email “github 注册邮箱”<br>比如我的配置就是：</p><p> git config –global user.name “Ngs-liuji”<br> git config –global user.email “<a href="mailto:&#x32;&#48;&#x31;&#55;&#x37;&#x38;&#x35;&#52;&#55;&#x30;&#64;&#x71;&#x71;&#46;&#x63;&#111;&#109;">&#x32;&#48;&#x31;&#55;&#x37;&#x38;&#x35;&#52;&#55;&#x30;&#64;&#x71;&#x71;&#46;&#x63;&#111;&#109;</a>“<br>接着生成 ssh 密钥文件，输入如下命令后直接三次回车即可，一般不需要设置密码；</p><h3 id="生成-ssh-密钥"><a href="#生成-ssh-密钥" class="headerlink" title="生成 ssh 密钥"></a>生成 ssh 密钥</h3><p> ssh-keygen -t rsa -C “github 注册邮箱”<br>我生成秘钥的命令：</p><p> ssh-keygen -t rsa -C “<a href="mailto:&#50;&#48;&#x31;&#x37;&#x37;&#56;&#53;&#52;&#55;&#48;&#x40;&#x71;&#x71;&#46;&#99;&#x6f;&#x6d;">&#50;&#48;&#x31;&#x37;&#x37;&#56;&#53;&#52;&#55;&#48;&#x40;&#x71;&#x71;&#46;&#99;&#x6f;&#x6d;</a>“ </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;现在市面上已经有许多博客了，比如 CSDN、掘金、博客园、简书等等。我们可以直接在上面发表内容，而且交互比较人性化，而且也能被搜索引擎检索到</summary>
+      
+    
+    
+    
+    <category term="建站" scheme="http://example.com/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
