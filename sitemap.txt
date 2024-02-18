@@ -1,2 +1,15 @@
-http://example.com/2024/02/18/hello-world/
-http://example.com/
+http://ngs-liuji.github.io/2024/02/18/%E5%86%99%E4%BD%9C/
+http://ngs-liuji.github.io/2024/02/18/%E5%9F%BA%E4%BA%8EHexo%E5%92%8Cgithub-Page%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/
+http://ngs-liuji.github.io/categories/index.html
+http://ngs-liuji.github.io/tags/index.html
+http://ngs-liuji.github.io/link/index.html
+http://ngs-liuji.github.io/about/index.html
+http://ngs-liuji.github.io/movies/index.html
+http://ngs-liuji.github.io/music/index.html
+http://ngs-liuji.github.io/2024/02/18/hello-world/
+http://ngs-liuji.github.io/
+http://ngs-liuji.github.io/tags/%E5%BB%BA%E7%AB%99/
+http://ngs-liuji.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/
+http://ngs-liuji.github.io/tags/%E5%86%99%E4%BD%9C-%E6%9B%B4%E6%96%B0/
+http://ngs-liuji.github.io/categories/Hexo/
+http://ngs-liuji.github.io/categories/docs/
