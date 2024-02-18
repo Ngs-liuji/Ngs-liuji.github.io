@@ -3,11 +3,11 @@
   <title>NGS - Blog</title>
   
   <subtitle>鸟归沙的博客</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://ngs-liuji.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2024-02-18T05:52:57.843Z</updated>
-  <id>http://example.com/</id>
+  <link href="http://ngs-liuji.github.io/"/>
+  <updated>2024-02-18T07:48:57.187Z</updated>
+  <id>http://ngs-liuji.github.io/</id>
   
   <author>
     <name>NGS 鸟归沙</name>
@@ -17,13 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>基于Hexo和github Page的个人博客搭建</title>
-    <link href="http://example.com/2024/02/18/%E5%9F%BA%E4%BA%8EHexo%E5%92%8Cgithub-Page%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    <id>http://example.com/2024/02/18/%E5%9F%BA%E4%BA%8EHexo%E5%92%8Cgithub-Page%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
-    <published>2024-02-18T05:38:00.000Z</published>
-    <updated>2024-02-18T05:52:57.843Z</updated>
+    <title>写作</title>
+    <link href="http://ngs-liuji.github.io/2024/02/18/%E5%86%99%E4%BD%9C/"/>
+    <id>http://ngs-liuji.github.io/2024/02/18/%E5%86%99%E4%BD%9C/</id>
+    <published>2024-02-18T07:20:29.000Z</published>
+    <updated>2024-02-18T07:48:57.187Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>现在市面上已经有许多博客了，比如 CSDN、掘金、博客园、简书等等。我们可以直接在上面发表内容，而且交互比较人性化，而且也能被搜索引擎检索到。但是总归是别人的平台，经常会受限，因此我们就希望能有自己的博客。之前也尝试过搭建过不同的博客类型，折腾了不少工作，最终决定定型，采用 Hexo + Github Pages 的方式。今天就带大家一起来搭建自己的博客。由于是采用 Hexo + Github Pages 的方式，所以都是免费的，只是需要有一定的动手能力！</p><h3 id="Hexo-简介"><a href="#Hexo-简介" class="headerlink" title="Hexo 简介"></a>Hexo 简介</h3><p>Hexo 是一个快速、简洁且高效的静态博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。我们只需要通过 Markdown 语法写好自己的博客内容，然后通过简单的命令就能够将生成的网页上传到 Github，然后大家都可以来访问你的网页了。既方便了自己，也给了自己一个展示自己成果的平台，是不是一举两得。</p><h3 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h3><p>搭建之前，需要做一些准备工作，首先需要确保你的电脑上已经上安装好了 Git 和 Node.Js，然后才能开始安装 Hexo，那么首先我们先来看看如何准备这这些环境。</p><h3 id="Git-安装"><a href="#Git-安装" class="headerlink" title="Git 安装"></a>Git 安装</h3><p>Window：下载并安装<br>macOS：下载并安装<br>Linux（Debian，Ubuntu）：sudo apt-get install git-core<br>Linux（Fedora、RedHat、CentOS）：sudo yum install git-core<br>设置<br>安装成功后，将 git 与 GitHub 账号绑定，右键打开 Git Bash，然后设置配置信息：</p><h3 id="配置用户名和邮箱"><a href="#配置用户名和邮箱" class="headerlink" title="配置用户名和邮箱"></a>配置用户名和邮箱</h3><p> git config –global user.name “github 用户名”<br> git config –global user.email “github 注册邮箱”<br>比如我的配置就是：</p><p> git config –global user.name “Ngs-liuji”<br> git config –global user.email “<a href="mailto:&#x32;&#48;&#x31;&#55;&#x37;&#x38;&#x35;&#52;&#55;&#x30;&#64;&#x71;&#x71;&#46;&#x63;&#111;&#109;">&#x32;&#48;&#x31;&#55;&#x37;&#x38;&#x35;&#52;&#55;&#x30;&#64;&#x71;&#x71;&#46;&#x63;&#111;&#109;</a>“<br>接着生成 ssh 密钥文件，输入如下命令后直接三次回车即可，一般不需要设置密码；</p><h3 id="生成-ssh-密钥"><a href="#生成-ssh-密钥" class="headerlink" title="生成 ssh 密钥"></a>生成 ssh 密钥</h3><p> ssh-keygen -t rsa -C “github 注册邮箱”<br>我生成秘钥的命令：</p><p> ssh-keygen -t rsa -C “<a href="mailto:&#50;&#48;&#x31;&#x37;&#x37;&#56;&#53;&#52;&#55;&#48;&#x40;&#x71;&#x71;&#46;&#99;&#x6f;&#x6d;">&#50;&#48;&#x31;&#x37;&#x37;&#56;&#53;&#52;&#55;&#48;&#x40;&#x71;&#x71;&#46;&#99;&#x6f;&#x6d;</a>“ </p>]]></content>
+    <content type="html"><![CDATA[<p>你可以执行下列命令来创建一篇新文章或者新的页面。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure><p>您可以在命令中指定文章的布局（layout），默认为 <code>post</code>，可以通过修改 <code>_config.yml</code> 中的 <code>default_layout</code> 参数来指定默认布局。</p><h3 id="布局（Layout）"><a href="#布局（Layout）" class="headerlink" title="布局（Layout）"></a>布局（Layout）</h3><p>Hexo 有三种默认布局：<code>post</code>、<code>page</code> 和 <code>draft</code>。在创建这三种不同类型的文件时，它们将会被保存到不同的路径；而您自定义的其他布局和 <code>post</code> 相同，都将储存到 <code>source/_posts</code> 文件夹。</p><table><thead><tr><th align="left">布局</th><th align="left">路径</th></tr></thead><tbody><tr><td align="left"><code>post</code></td><td align="left"><code>source/_posts</code></td></tr><tr><td align="left"><code>page</code></td><td align="left"><code>source</code></td></tr><tr><td align="left"><code>draft</code></td><td align="left"><code>source/_drafts</code></td></tr></tbody></table><blockquote><p>禁用布局</p><p>如果你不希望一篇文章（post&#x2F;page）使用主题处理，请在它的 front-matter 中设置 <code>layout: false</code>。详情请参考<a href="https://hexo.io/zh-cn/docs/front-matter#%E5%B8%83%E5%B1%80">本节</a>。</p></blockquote><h3 id="文件名称"><a href="#文件名称" class="headerlink" title="文件名称"></a>文件名称</h3><p>Hexo 默认以标题做为文件名称，但您可编辑 <code>new_post_name</code> 参数来改变默认的文件名称，举例来说，设为 <code>:year-:month-:day-:title.md</code> 可让您更方便的通过日期来管理文章。你可以使用以下占位符：</p><table><thead><tr><th align="left">变量</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left"><code>:title</code></td><td align="left">标题（小写，空格将会被替换为短杠）</td></tr><tr><td align="left"><code>:year</code></td><td align="left">建立的年份，比如， <code>2015</code></td></tr><tr><td align="left"><code>:month</code></td><td align="left">建立的月份（有前导零），比如， <code>04</code></td></tr><tr><td align="left"><code>:i_month</code></td><td align="left">建立的月份（无前导零），比如， <code>4</code></td></tr><tr><td align="left"><code>:day</code></td><td align="left">建立的日期（有前导零），比如， <code>07</code></td></tr><tr><td align="left"><code>:i_day</code></td><td align="left">建立的日期（无前导零），比如， <code>7</code></td></tr></tbody></table><h3 id="草稿"><a href="#草稿" class="headerlink" title="草稿"></a>草稿</h3><p>刚刚提到了 Hexo 的一种特殊布局：<code>draft</code>，这种布局在建立时会被保存到 <code>source/_drafts</code> 文件夹，您可通过 <code>publish</code> 命令将草稿移动到 <code>source/_posts</code> 文件夹，该命令的使用方式与 <code>new</code> 十分类似，您也可在命令中指定 <code>layout</code> 来指定布局。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo publish [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure><p>草稿默认不会显示在页面中，您可在执行时加上 <code>--draft</code> 参数，或是在 <code>_config.yml</code> 中把 <code>render_drafts</code> 参数设为 <code>true</code> 来预览草稿。</p><h3 id="模版（Scaffold）"><a href="#模版（Scaffold）" class="headerlink" title="模版（Scaffold）"></a>模版（Scaffold）</h3><p>在新建文章时，Hexo 会根据 <code>scaffolds</code> 文件夹内相对应的文件来建立文件，例如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new photo &quot;My Gallery&quot;</span><br></pre></td></tr></table></figure><p>在执行这行指令时，Hexo 会尝试在 <code>scaffolds</code> 文件夹中寻找 <code>photo.md</code>，并根据其内容建立文章，以下是您可以在模版中使用的变量：</p><table><thead><tr><th align="left">变量</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left"><code>layout</code></td><td align="left">布局</td></tr><tr><td align="left"><code>title</code></td><td align="left">标题</td></tr><tr><td align="left"><code>date</code></td><td align="left">文件建立日期</td></tr></tbody></table><h3 id="支持的格式"><a href="#支持的格式" class="headerlink" title="支持的格式"></a>支持的格式</h3><p>Hexo 支持以任何格式书写文章，只要安装了相应的渲染插件。</p><p>例如，Hexo 默认安装了 <code>hexo-renderer-marked</code> 和 <code>hexo-renderer-ejs</code>，因此你不仅可以用 Markdown 写作，你还可以用 EJS 写作。如果你安装了 <code>hexo-renderer-pug</code>，你甚至可以用 Pug 模板语言书写文章。</p><p>只需要将文章的扩展名从 <code>md</code> 改成 <code>ejs</code>，Hexo 就会使用 <code>hexo-renderer-ejs</code> 渲染这个文件，其他格式同理。</p><p>参考链接：<a href="https://hexo.io/zh-cn/docs/writing">写作 | Hexo</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;你可以执行下列命令来创建一篇新文章或者新的页面。&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;</summary>
+      
+    
+    
+    
+    <category term="docs" scheme="http://ngs-liuji.github.io/categories/docs/"/>
+    
+    
+    <category term="写作 更新" scheme="http://ngs-liuji.github.io/tags/%E5%86%99%E4%BD%9C-%E6%9B%B4%E6%96%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于Hexo和Github Page的个人博客搭建</title>
+    <link href="http://ngs-liuji.github.io/2024/02/18/%E5%9F%BA%E4%BA%8EHexo%E5%92%8Cgithub-Page%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <id>http://ngs-liuji.github.io/2024/02/18/%E5%9F%BA%E4%BA%8EHexo%E5%92%8Cgithub-Page%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
+    <published>2024-02-18T05:38:00.000Z</published>
+    <updated>2024-02-18T07:18:14.151Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>现在市面上已经有许多博客了，比如 CSDN、掘金、博客园、简书等等。我们可以直接在上面发表内容，而且交互比较人性化，而且也能被搜索引擎检索到。但是总归是别人的平台，经常会受限，因此我们就希望能有自己的博客。之前也尝试过搭建过不同的博客类型，折腾了不少工作，最终决定定型，采用 Hexo + Github Pages 的方式。今天就带大家一起来搭建自己的博客。由于是采用 Hexo + Github Pages 的方式，所以都是免费的，只是需要有一定的动手能力！</p><h3 id="Hexo-简介"><a href="#Hexo-简介" class="headerlink" title="Hexo 简介"></a>Hexo 简介</h3><p>Hexo 是一个快速、简洁且高效的静态博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。我们只需要通过 Markdown 语法写好自己的博客内容，然后通过简单的命令就能够将生成的网页上传到 Github，然后大家都可以来访问你的网页了。既方便了自己，也给了自己一个展示自己成果的平台，是不是一举两得。</p><h3 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h3><p>搭建之前，需要做一些准备工作，首先需要确保你的电脑上已经上安装好了 Git 和 Node.Js，然后才能开始安装 Hexo，那么首先我们先来看看如何准备这这些环境。</p><h3 id="Git-安装"><a href="#Git-安装" class="headerlink" title="Git 安装"></a>Git 安装</h3><p>Window：下载并安装</p><p>macOS：下载并安装<br>Linux（Debian，Ubuntu）：sudo apt-get install git-core<br>Linux（Fedora、RedHat、CentOS）：sudo yum install git-core<br>设置<br>安装成功后，将 git 与 GitHub 账号绑定，右键打开 Git Bash，然后设置配置信息：</p><h3 id="配置用户名和邮箱"><a href="#配置用户名和邮箱" class="headerlink" title="配置用户名和邮箱"></a>配置用户名和邮箱</h3><p> git config –global user.name “github 用户名”<br> git config –global user.email “github 注册邮箱”<br>比如我的配置就是：</p><p> git config –global user.name “Ngs-liuji”<br> git config –global user.email “<a href="mailto:&#x32;&#48;&#x31;&#55;&#x37;&#56;&#x35;&#x34;&#x37;&#48;&#x40;&#113;&#113;&#x2e;&#x63;&#111;&#x6d;">&#x32;&#48;&#x31;&#55;&#x37;&#56;&#x35;&#x34;&#x37;&#48;&#x40;&#113;&#113;&#x2e;&#x63;&#111;&#x6d;</a>“<br>接着生成 ssh 密钥文件，输入如下命令后直接三次回车即可，一般不需要设置密码；</p><h3 id="生成-ssh-密钥"><a href="#生成-ssh-密钥" class="headerlink" title="生成 ssh 密钥"></a>生成 ssh 密钥</h3><p> ssh-keygen -t rsa -C “github 注册邮箱”<br>我生成秘钥的命令：</p><p> ssh-keygen -t rsa -C “<a href="mailto:&#50;&#x30;&#x31;&#55;&#x37;&#56;&#53;&#x34;&#55;&#x30;&#64;&#113;&#x71;&#x2e;&#99;&#x6f;&#x6d;">&#50;&#x30;&#x31;&#55;&#x37;&#56;&#53;&#x34;&#55;&#x30;&#64;&#113;&#x71;&#x2e;&#99;&#x6f;&#x6d;</a>“</p><p>继续学习：<a href="https://butterfly.js.org/posts/21cfbf15/">Butterfly 安裝文檔(一) 快速開始 | Butterfly</a></p>]]></content>
     
     
       
@@ -33,17 +58,19 @@
     
     
     
-    <category term="建站" scheme="http://example.com/categories/%E5%BB%BA%E7%AB%99/"/>
+    <category term="Hexo" scheme="http://ngs-liuji.github.io/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="建站" scheme="http://ngs-liuji.github.io/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+    <category term="个人博客" scheme="http://ngs-liuji.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2024/02/18/hello-world/"/>
-    <id>http://example.com/2024/02/18/hello-world/</id>
+    <link href="http://ngs-liuji.github.io/2024/02/18/hello-world/"/>
+    <id>http://ngs-liuji.github.io/2024/02/18/hello-world/</id>
     <published>2024-02-18T02:07:47.638Z</published>
     <updated>2024-02-18T02:05:46.758Z</updated>
     
